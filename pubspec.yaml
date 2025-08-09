@@ -1,1 +1,16 @@
+name: waeq_app
+description: تطبيق فحص الصور باستخدام OCR والتكرار
+version: 1.0.0+1
 
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.15.0
+  firebase_storage: ^11.7.0
+  image_picker: ^1.0.7
+  google_mlkit_text_recognition: ^0.11.0
